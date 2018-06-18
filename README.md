@@ -17,7 +17,7 @@ Java is fast, secure, reliable and long-term compatible, which ensures older app
       java version "1.8.0_102"
       Java(TM) SE Runtime Environment (build 1.8.0_102-b14)
       Java HotSpot(TM) 64-Bit Server VM (build 25.102-b14, mixed mode)
-  4. Installation Troubleshooting - ![alt text](https://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_install.html#CHDCCBFJ "here")
+  4. Installation Troubleshooting - [here](https://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_install.html#CHDCCBFJ)
   5. For more details - here
   6. For other operating systems - here
 What is JRE?
