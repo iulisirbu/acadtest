@@ -1,5 +1,6 @@
 # Introduction to Java Programming #
-What is Java?
+
+## What is Java? ##
 Java is a programming language and computing platform first released by Sun Microsystems on
 May 23, 1995. The acquisition of Sun Microsystems by Oracle Corporation was completed on
 January 27, 2010. Java is one of the most widely adopted programming languages, used by some
