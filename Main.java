@@ -1,7 +1,7 @@
 package com.testacademy;
 
 import static com.testacademy.BubbleSort.*;
-import static com.testacademy.ArrayCompare.*;
+import static com.testacademy.Array.*;
 import static com.testacademy.ControlFlowStatements.*;
 import static com.testacademy.PrimeNumbers.*;
 
@@ -78,5 +78,28 @@ public class Main {
         } else {
             System.out.println("Numarul nu este prim");
         }
+
+        /*
+        Suma vector
+        */
+        System.out.println("Suma vectorului este :" + sumArrays(arr));
+        System.out.println("\n");
+
+        /*
+        Search in an array
+        */
+
+        boolean found = searchArray(arr,2);
+        if (found)
+            System.out.println("Elementul a fost gasit");
+        else
+            System.out.println("Elementul nu a fost gasit");
+
+
+        //min
+        System.out.println("Min este : " + minArray(arr));
+
+        //max
+        System.out.println("Max este : " + maxArray(arr));
     }
 }
