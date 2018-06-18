@@ -5,16 +5,15 @@ public class ControlFlowStatements {
     public static void binarySearchFor(String[] arr, String src) {
         String found = "Folosind functia de cautare FOR - elementul se afla pe pozitia : ";
         String notFound = "Folosind functia de cautare FOR - elementul nu a fost gasit";
-        int ok=0;
+        int ok = 0;
         for (int i = 0; i < arr.length; i++) {
             if (src.equals(arr[i])) {
-                ok = i+1;
+                ok = i + 1;
             }
         }
-
-        if(ok!=0) {
+        if (ok != 0) {
             System.out.println(found + (ok));
-        }else
+        } else
             System.out.println(notFound);
     }
 
@@ -75,15 +74,6 @@ public class ControlFlowStatements {
                 System.out.println("Folosind functia de cautare case - elementul nu se regaseste in lista");
                 break;
         }
-
-    }
-
-    public static void main(String[] args) {
-
-        String months[] = {"ian", "feb", "mar", "apr", "mai", "iun", "iul", "aug", "sep", "oct", "nov", "dec"};
-        binarySearchFor(months, "33v");
-        binarySearchCase("asdasd");
-
     }
 }
 

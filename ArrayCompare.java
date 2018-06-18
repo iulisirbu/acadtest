@@ -22,19 +22,9 @@ public class ArrayCompare {
             else{
                 contains = false;
             }
-
         }
         for (int var : auxArr) {
             System.out.print(var + " ");
         }
-
-    }
-
-    public static void main(String[] args) {
-        int[] array1 = {1,2,3,5,6,67,4,234,56,6345,32};
-        int[] array2 = {2,4,6,3,1,89,643,877,444,2323,222,0,999,32};
-
-        findDistinct(array1,array2);
-
     }
 }

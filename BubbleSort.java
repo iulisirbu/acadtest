@@ -3,7 +3,7 @@ package com.testacademy;
 public class BubbleSort {
 
 
-    static void bubbleSortFor(int[] arr) {
+   public static void bubbleSortFor(int[] arr) {
         int n = arr.length;
         int temp = 0;
         for(int i=0; i < n; i++){
@@ -26,7 +26,7 @@ public class BubbleSort {
 
     }
 
-    static void bubbleSortDoLoop(int[] arr) {
+   public static void bubbleSortDoLoop(int[] arr) {
         int n = arr.length;
         int temp = 0;
         int ok = 0;
@@ -52,7 +52,7 @@ public class BubbleSort {
     }
 
 
-    static void bubbleSortWhileLoop(int[] arr) {
+   public static void bubbleSortWhileLoop(int[] arr) {
         int n = arr.length;
         int temp = 0;
         int ok = 0;
@@ -77,44 +77,4 @@ public class BubbleSort {
 
     }
 
-    public static void main(String[] args) {
-        int arr[]  ={2,44,9,44,19,91,55};
-        int arr2[] ={4,55,43,6,74,620,99};
-        int arr3[] ={3,22,13,7,5,62,22};
-
-        System.out.println("Array 1 inainte de sortare");
-        for(int i=0; i < arr.length; i++){
-            System.out.print(arr[i] + " ");
-        }
-
-        System.out.println("\nArray 2 inainte de sortare");
-        for(int i=0; i < arr2.length; i++){
-            System.out.print(arr2[i] + " ");
-        }
-
-        System.out.println("\nArray 3 inainte de sortare");
-        for(int i=0; i < arr3.length; i++){
-            System.out.print(arr3[i] + " ");
-        }
-
-        bubbleSortFor(arr); //apelare sortare folosing looping statement de tip for
-        bubbleSortDoLoop(arr2); //apelare sortare folosind looping statement de tip do
-        bubbleSortWhileLoop(arr3); // sortare folosind while loop
-
-        System.out.println("\nArray dupa sortare folosind Bubble Sort cu FOR");
-        for(int i=0; i < arr.length; i++){
-            System.out.print(arr[i] + " ");
-        }
-
-        System.out.println("\nArray dupa sortare folosind Bubble Sort DO");
-        for(int i=0; i < arr2.length; i++){
-            System.out.print(arr2[i] + " ");
-        }
-
-        System.out.println("\nArray dupa sortare folosind Bubble Sort WHILE");
-        for(int i=0; i < arr3.length; i++){
-            System.out.print(arr3[i] + " ");
-        }
-
-    }
 }
