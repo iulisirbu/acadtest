@@ -3,7 +3,15 @@ package com.testacademy;
 import java.util.List;
 import java.util.ArrayList;
 
-public class ArrayCompare {
+public class Array {
+
+    private static int sumArrays(int[] arr1){
+        int sum = 0;
+        for(int i=0;i<arr1.length;i++){
+            sum = sum + arr1[1];
+        }
+        return sum;
+    }
 
     public static void findDistinct(int[] arr1,int[] arr2){
         boolean contains = false;
