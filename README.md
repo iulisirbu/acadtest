@@ -20,11 +20,17 @@ Java is fast, secure, reliable and long-term compatible, which ensures older app
   4. Installation Troubleshooting - [here](https://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_install.html#CHDCCBFJ)
   5. For more details - [here](https://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_install.html#CHDEBCCJ)
   6. For other operating systems - [here](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html#A1096936)
+
 ## What is JRE? ##
 The Java Runtime Environment runs the JVM (Java Virtual Machine), that enables you to run the
 software on any platform for which the JVM is available. It contains set of libraries and other files
 that JVM uses at runtime.
 What is JDK?
+The Java Development Kit is the full featured SDK (Software Development Kit) for Java, including
+the JRE, compilers and tools (like JavaDoc and Java Debugger) to develop and compile Java
+Applications.
+
+## What is JDK? ##
 The Java Development Kit is the full featured SDK (Software Development Kit) for Java, including
 the JRE, compilers and tools (like JavaDoc and Java Debugger) to develop and compile Java
 Applications.
