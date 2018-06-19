@@ -1,6 +1,12 @@
 package com.testacademy;
 
 public class ControlFlowStatements {
+    
+    /* Course 2 – Control Flow Statements and Arrays
+    * Arrays - Exercises
+    *
+    * 18/06/2016
+    */
 
     public static void binarySearchFor(String[] arr, String src) {
         String found = "Folosind functia de cautare FOR - elementul se afla pe pozitia : ";
