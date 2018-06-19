@@ -11,14 +11,16 @@ public class PrimeNumbers {
         return true;
     }
 
-    public static void fifthPrimeNumber(int n, int first) {
+   public static void fifthPrimeNumber(int n) {
         int count = 0;
-        System.out.print("Primele " + first + " numere prime sunt ");
-        for (int i = 2; i <= n; i++)
-            if (isPrime(i) == true) {
+        int i = 0;
+        System.out.println("Numerele naturale pana la al " + n + "-lea prim sunt : ");
+
+         do{
+            if (isPrime(i) == true)
                 count++;
-                System.out.print(i + " ");
-                if (count == first) break;
-            }
+                System.out.println(i);
+                i++;
+            }while (count < n);
     }
 }
