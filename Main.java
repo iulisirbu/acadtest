@@ -8,7 +8,11 @@ import static com.testacademy.PrimeNumbers.*;
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
+    /* Course 2 – Control Flow Statements and Arrays
+    * Arrays - Exercises
+    *
+    * 18/06/2016
+    */
 
         int n = 127;
         String months[] = {"ian", "feb", "mar", "apr", "mai", "iun", "iul", "aug", "sep", "oct", "nov", "dec"};
@@ -68,7 +72,12 @@ public class Main {
         /*
         Cautare index luna
         */
-
+        
+        /*   
+        * Write a Java program that takes the name of a month and prints its index in a year. 
+        * Test Data: Input: March and Output message: The index is 3. Hint: use switch statement 
+        */
+        
         binarySearchFor(months, "33v");
         binarySearchCase("asdasd");
 
