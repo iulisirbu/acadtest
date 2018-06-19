@@ -1,8 +1,8 @@
-package com.testacademy;
+package com.testacademy.curs1;
 
 import java.util.List;
 import java.util.ArrayList;
-import static com.testacademy.BubbleSort.*;
+import static com.testacademy.curs1.BubbleSort.*;
 
 
 public class Array {

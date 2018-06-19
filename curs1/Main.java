@@ -1,9 +1,8 @@
-package com.testacademy;
+package com.testacademy.curs1;
 
-import static com.testacademy.BubbleSort.*;
-import static com.testacademy.Array.*;
-import static com.testacademy.ControlFlowStatements.*;
-import static com.testacademy.PrimeNumbers.*;
+import static com.testacademy.curs1.BubbleSort.*;
+import static com.testacademy.curs1.ControlFlowStatements.*;
+import static com.testacademy.curs1.PrimeNumbers.*;
 
 public class Main {
 
@@ -60,7 +59,7 @@ public class Main {
         Compare arrays
         */
         System.out.print("Elementele distincte dintre cele doua stringuri sunt : ");
-        findDistinct(arr, arr2);
+        Array.findDistinct(arr, arr2);
         System.out.println("\n");
 
         /*
@@ -91,14 +90,14 @@ public class Main {
         /*
         Suma vector
         */
-        System.out.println("Suma vectorului este :" + sumArrays(arr));
+        System.out.println("Suma vectorului este :" + Array.sumArrays(arr));
         System.out.println("\n");
 
         /*
         Search in an array
         */
 
-        boolean found = searchArray(arr,2);
+        boolean found = Array.searchArray(arr,2);
         if (found)
             System.out.println("Elementul a fost gasit");
         else
@@ -106,9 +105,9 @@ public class Main {
 
 
         //min
-        System.out.println("Min este : " + minArray(arr));
+        System.out.println("Min este : " + Array.minArray(arr));
 
         //max
-        System.out.println("Max este : " + maxArray(arr));
+        System.out.println("Max este : " + Array.maxArray(arr));
     }
 }

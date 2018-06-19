@@ -1,4 +1,4 @@
-package com.testacademy;
+package com.testacademy.curs1;
 
 public class BubbleSort {
 
