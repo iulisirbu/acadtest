@@ -14,7 +14,7 @@ public class Main {
     * 18/06/2016
     */
 
-        int n = 127;
+        int n = 7;
         String months[] = {"ian", "feb", "mar", "apr", "mai", "iun", "iul", "aug", "sep", "oct", "nov", "dec"};
         int arr[] = {2, 44, 9, 44, 19, 91, 55};
         int arr2[] = {4, 55, 43, 6, 74, 620, 99};
@@ -67,7 +67,7 @@ public class Main {
         find prime numbers
         */
 
-        fifthPrimeNumber(n, 8);
+        fifthPrimeNumber(n);
         System.out.println("\n");
         /*
         Cautare index luna
