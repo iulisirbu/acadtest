@@ -1,4 +1,4 @@
-package com.testacademy.curs3;
+package com.testacademy.curs3_pb1;
 
 public class Person {
 
