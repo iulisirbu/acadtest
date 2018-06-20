@@ -2,10 +2,10 @@ package com.testacademy.practice;
 
 public class ex2 {
 
-  /*  2.Scrieţi o aplicaţie Java care să reconstituie scăderea: X X X – X  2 X --------- 8   7  9*/
+
   public static void main(String[] args) {
 
-
+      /*  2.Scrieţi o aplicaţie Java care să reconstituie scăderea: X X X – X  2 X --------- 8   7  9*/
 
       int nr1 = 0;
       int nr2 = 0;
