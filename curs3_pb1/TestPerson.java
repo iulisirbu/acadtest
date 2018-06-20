@@ -4,5 +4,5 @@ public class TestPerson {
 
     Person pers = new Person("Iulian","Tei");
 
-    pers.
+/*    pers.*/
 }

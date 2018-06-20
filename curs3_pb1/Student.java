@@ -47,8 +47,7 @@ public class Student extends Person {
 
     }
 
-    @Override
-    public void setAddress(String address,String email) {
+    private void setAddress(String address, String email) {
         super.setAddress(address);
         this.email=email;
 

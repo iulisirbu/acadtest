@@ -26,11 +26,13 @@ public class Person {
     public void setAddress(String address) {
         this.address = address;
     }
+/*
 
     @Override
     public String toString() {
         return super.toString("Person[name= "+name+", address="+address+"]");
     }
+*/
 
 
 
