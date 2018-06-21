@@ -1,4 +1,4 @@
-package com.testacademy.curs3_pb1;
+package com.acadtest.curs3_pb1;
 
 public class Student extends Person {
     private String program;
@@ -14,7 +14,7 @@ public class Student extends Person {
     }
 
     public Student(String name, String address, String program) {
-            this(name,address,program,1,0);
+        this(name, address, program, 1, 0);
     }
 
     public String getProgram() {
@@ -41,15 +41,15 @@ public class Student extends Person {
         this.fee = fee;
     }
 
-    @Override
-    public String toString() {
-        return String.format("Student[%s,program=%s,year=%d,fee=%s]", super.toString(), program, year, fee);
+    private void setAddress(String address, String email) {
+        super.setAddress(address);
+        this.email = email;
 
     }
 
-    private void setAddress(String address, String email) {
-        super.setAddress(address);
-        this.email=email;
+    @Override
+    public String toString() {
+        return String.format("Student[%s,program=%s,year=%d,fee=%s]", super.toString(), program, year, fee);
 
     }
 }

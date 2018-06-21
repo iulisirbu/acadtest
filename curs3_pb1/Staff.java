@@ -1,4 +1,4 @@
-package com.testacademy.curs3_pb1;
+package com.acadtest.curs3_pb1;
 
 public class Staff extends Person{
     private String school;
@@ -28,6 +28,8 @@ public class Staff extends Person{
 
     @Override
     public String toString() {
-        return super.toString();
+        String temp;
+        temp = String.format("Staff[%s,school=%s,pay=%s]",super.toString(),school,pay);
+        return temp;
     }
 }

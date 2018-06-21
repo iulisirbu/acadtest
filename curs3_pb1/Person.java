@@ -1,4 +1,4 @@
-package com.testacademy.curs3_pb1;
+package com.acadtest.curs3_pb1;
 
 public class Person {
 
@@ -12,7 +12,7 @@ public class Person {
 
     //overloading the constructor
     public Person(String name) {
-            this(name,null);
+        this(name, " ");
     }
 
     public String getName() {
@@ -26,14 +26,13 @@ public class Person {
     public void setAddress(String address) {
         this.address = address;
     }
-/*
+
 
     @Override
     public String toString() {
-        return super.toString("Person[name= "+name+", address="+address+"]");
+        String temp = String.format("Person[name=%s,address=%s]", name, address);
+        return temp;
     }
-*/
-
 
 
 }
