@@ -30,7 +30,8 @@ public class Circle {
     }
 
     public void setRadius(double radius) {
-        this.radius = radius;
+        if(radius>0)
+            this.radius = radius;           
     }
 
     public void setColor(String color) {
