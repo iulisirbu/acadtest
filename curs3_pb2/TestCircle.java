@@ -15,7 +15,7 @@ public class TestCircle {
         String color = c3.getColor();
 
         // c1.radius = 5.0;  no bcs radius has private access, in order to change his value we need to create a setter method
-        c1.setRadius(5.2);
+        c1.setRadius(0);
 
         //System.out.println(c1.radius); no bcs radius has private access, in order to change his value we need to create a getter method
         System.out.println(radius);
